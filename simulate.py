@@ -56,7 +56,7 @@ if __name__=="__main__":
 
 
     fig = plt.figure(figsize=(8, 8))
-
+    plt.axis('off')
 
     im = plt.imshow(np.zeros((480, 640, 3)))
     data = population.data
